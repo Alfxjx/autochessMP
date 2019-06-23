@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main{
+  flex: 1;
+}
+.bot{
+  flex:0;
+  color: cadetblue;
+  font-size: 0.7em;
+}
+.h2-head{
+  font-size: 1.25em;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+  color: darkgreen;
+}
+
+.update-log{
+  color: darkslategray;
+}

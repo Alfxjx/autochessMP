@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <picker-view
+  indicator-style="height: 50px;"
+  class="picker-wrapper"
+  value="{{value}}"
+  bindchange="bindChange"
+  >
+    <picker-view-column>
+      <view wx:for="{{weaponA}}" style="line-height: 30px">
+        <img src="{{item.pic}}" alt=""/>
+        {{item.name}}
+      </view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{weaponB}}" style="line-height: 30px">
+        <img src="{{item.pic}}" alt=""/>
+        {{item.name}}
+      </view>
+    </picker-view-column>
+  </picker-view>
+  <view class="result">
+    <view class="weapon-name">{{combine.name}}</view>
+    <view class="weapon-desc">
+      {{combine.desc}}
+    </view>
+    <view class="hint">{{hint}}</view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<!--about.wxml-->
+<view class="container">
+  <view class="main">
+    <h2 class="h2-head">更新记录</h2>
+    <view class="update-log">
+      <ul>
+        <li>1.0 全文字版本，图片版很快更新</li>
+      </ul>
+    </view>
+  </view>
+  <view class="bot">
+    <!-- <span>邮箱xjxtju@163.com</span> -->
+    <span>饱龙一族，重拳出击！</span>
+  </view>
+</view>
