@@ -8,20 +8,20 @@
   >
     <picker-view-column>
       <view wx:for="{{weaponA}}" style="line-height: 30px">
-        <img src="{{item.pic}}" alt="logo"/>
+        <image class="image" src="{{item.pic}}" alt=""></image>
         {{item.name}}
       </view>
     </picker-view-column>
     <picker-view-column>
       <view wx:for="{{weaponB}}" style="line-height: 30px">
-        <img src="{{item.pic}}" alt="logo"/>
+        <image class="image" src="{{item.pic}}" alt=""></image>
         {{item.name}}
       </view>
     </picker-view-column>
   </picker-view>
   <view class="result">
     <view class="weapon-name">
-    <img src="{{combine.pic}}" alt=""/>
+    <image class="image" src="{{combine.pic}}" alt=""></image>
     <span>{{combine.name}}</span>
     </view>
     <view class="weapon-desc">
