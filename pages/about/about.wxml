@@ -5,6 +5,7 @@
     <view class="update-log">
       <ul>
         <li>1.0 全文字版本，图片版很快更新</li>
+        <li>1.1 加上图片， 准备更新职业和种族</li>
       </ul>
     </view>
   </view>
