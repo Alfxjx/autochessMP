@@ -14,14 +14,14 @@
       {
         "pagePath": "pages/index/index",
         "text":"主页",
-        "iconPath":"image/a.png",
-        "selectedIconPath":"image/a.png"
+        "iconPath":"image/bfdj.png",
+        "selectedIconPath":"image/bfdj.png"
       },
       {
         "pagePath": "pages/about/about",
         "text":"关于",
-        "iconPath":"image/b.png",
-        "selectedIconPath":"image/b.png"
+        "iconPath":"image/wydb.png",
+        "selectedIconPath":"image/wydb.png"
       }
       
     ]

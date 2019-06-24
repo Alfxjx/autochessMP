@@ -6,335 +6,323 @@ const weaponA = [
   {
     name:'暴风大剑',
     desc:'+20点攻击力',
-    pic:'../../assets/0.png',
+    pic:'../../image/bfdj.png',
     num:0
   },
   {
     name:'锁子甲',
     desc:'+20点护甲',
-    pic:'../../assets/1.png',
+    pic:'../../image/szj.png',
     num:1
   },
   {
     name:'巨人腰带',
     desc:'+200点生命值',
-    pic:'../../assets/2.png',
+    pic:'../../image/jryd.png',
     num:2
   },
   {
     name:'魔尘',
     desc:'无属性加成',
-    pic:'../../assets/3.png',
+    pic:'../../image/mc.png',
     num:3
   },
   {
     name:'无用大棒',
     desc:'+20%技能伤害',
-    pic:'../../assets/4.png',
+    pic:'../../image/wydb.png',
     num:4
   },
   {
     name:'负极斗篷',
     desc:'+20点魔法抗性',
-    pic:'../../assets/5.png',
+    pic:'../../image/fjdp.jpg',
     num:5
   },
   {
     name:'反曲之弓',
     desc:'+15%攻击速度',
-    pic:'../../assets/6.png',
+    pic:'../../image/fqzg.png',
     num:6
   },
   {
     name:'女神之泪',
     desc:'+20法力值',
-    pic:'../../assets/7.png',
+    pic:'../../image/nszl.png',
     num:7
-  },
-  {
-    name:'以太精魄',
-    desc:'N/A',
-    pic:'../../assets/8.png',
-    num:8
   }
 ]
 const weaponB = [
   {
     name:'暴风大剑',
     desc:'+20点攻击力',
-    pic:'../../assets/0.png',
+    pic:'../../image/bfdj.png',
     num:0
   },
   {
     name:'锁子甲',
     desc:'+20点护甲',
-    pic:'../../assets/1.png',
+    pic:'../../image/szj.png',
     num:1
   },
   {
     name:'巨人腰带',
     desc:'+200点生命值',
-    pic:'../../assets/2.png',
+    pic:'../../image/jryd.png',
     num:2
   },
   {
     name:'魔尘',
     desc:'无属性加成',
-    pic:'../../assets/3.png',
+    pic:'../../image/mc.png',
     num:3
   },
   {
     name:'无用大棒',
     desc:'+20%技能伤害',
-    pic:'../../assets/4.png',
+    pic:'../../image/wydb.png',
     num:4
   },
   {
     name:'负极斗篷',
     desc:'+20点魔法抗性',
-    pic:'../../assets/5.png',
+    pic:'../../image/fjdp.jpg',
     num:5
   },
   {
     name:'反曲之弓',
     desc:'+15%攻击速度',
-    pic:'../../assets/6.png',
+    pic:'../../image/fqzg.png',
     num:6
   },
   {
     name:'女神之泪',
     desc:'+20法力值',
-    pic:'../../assets/7.png',
+    pic:'../../image/nszl.png',
     num:7
-  },
-  {
-    name:'以太精魄',
-    desc:'N/A',
-    pic:'../../assets/8.png',
-    num:8
   }
 ]
 const combine = [
   {
     name:'自然之力',
     desc:'+1人口',
-    pic:'../../image/combine/0.png',
+    pic:'../../image/combine/zrzl.png',
     combineMap:[3,3]
   },
   {
     name:'破败王者之刃',
     desc:'携带者也是剑士',
-    pic:'../../image/combine/1.png',
+    pic:'../../image/combine/pbwz.png',
     combineMap:[3,6]
   },
   {
     name:'饮血剑',
     desc:'+50%吸血效果。',
-    pic:'../../image/combine/2.png',
+    pic:'../../image/combine/yxj.png',
     combineMap:[0,5]
   },
   {
     name:'诅咒之刃',
     desc:'攻击有较低机率缩小敌人，使敌人星级-1',
-    pic:'../../image/combine/3.png',
+    pic:'../../image/combine/zzzr.png',
     combineMap:[5,6]
   },
   {
     name:'暗裔',
     desc:'携带者也是恶魔单位。',
-    pic:'../../image/combine/4.png',
+    pic:'../../image/combine/ay.png',
     combineMap:[3,7]
   },
   {
     name:'龙爪',
     desc:'对抗魔法伤害时获得83%抗性。',
-    pic:'../../image/combine/5.png',
+    pic:'../../image/combine/lz.png',
     combineMap:[5,5]
   },
   {
     name:'冰霜之心',
     desc:'邻近格子的敌人降低20%攻击速度。',
-    pic:'../../image/combine/6.png',
+    pic:'../../image/combine/bszx.png',
     combineMap:[1,7]
   },
   {
     name:'夺萃之镰',
     desc:'最大法力值-10',
-    pic:'../../image/combine/7.png',
+    pic:'../../image/combine/dczl.png',
     combineMap:[0,7]
   },
   {
     name:'冰霜之锤',
     desc:'携带者也是冰川单位',
-    pic:'../../image/combine/8.png',
+    pic:'../../image/combine/bszc.png',
     combineMap:[2,3]
   },
   {
     name:'守护天使',
     desc:'复活并且回复300生命值。',
-    pic:'../../image/combine/9.png',
+    pic:'../../image/combine/shts.png',
     combineMap:[0,1]
   },
   {
     name:'鬼索的狂暴之刃',
     desc:'每次攻击增加3%攻击速度，无上限',
-    pic:'../../image/combine/10.png',
+    pic:'../../image/combine/gsdk.png',
     combineMap:[4,6]
   },
   {
     name:'海克斯科技枪刃',
     desc:'回复造成伤害的25%生命值。',
-    pic:'../../image/combine/11.png',
+    pic:'../../image/combine/hksk.png',
     combineMap:[0,4]
   },
   {
     name:'沉默之刃',
     desc:'攻击将有较高几率沉默敌人。',
-    pic:'../../image/combine/12.png',
+    pic:'../../image/combine/cmzr.png',
     combineMap:[5,7]
   },
   {
     name:'无尽之刃',
     desc:'暴击伤害提高100%。',
-    pic:'../../image/combine/13.png',
+    pic:'../../image/combine/wjzr.png',
     combineMap:[0,0]
   },
   {
     name:'离子火花',
     desc:'每当敌人使用技能，他们受到100点伤害。',
-    pic:'../../image/combine/14.png',
+    pic:'../../image/combine/lzhh.png',
     combineMap:[4,5]
   },
   {
     name:'骑士之誓',
     desc:'携带者也是骑士单位。',
-    pic:'../../image/combine/15.png',
+    pic:'../../image/combine/qszs.png',
     combineMap:[1,3]
   },
   {
     name:'钢铁烈焰之匣',
     desc:'战斗开始前，所有邻近格子的友军获得一个200点护盾。',
-    pic:'../../image/combine/16.png',
+    pic:'../../image/combine/gtly.png',
     combineMap:[1,4]
   },
   {
     name:'卢登的回声',
     desc:'技能对命中目标造成100点溅射伤害。',
-    pic:'../../image/combine/17.png',
+    pic:'../../image/combine/lddh.png',
     combineMap:[4,7]
   },
   {
     name:'莫雷洛秘典',
     desc:'技能造成灼烧伤害，每秒伤害等同于敌人最大生命值的5%。',
-    pic:'../../image/combine/18.png',
+    pic:'../../image/combine/mllm.png',
     combineMap:[2,4]
   },
   {
     name:'幻影之舞',
     desc:'携带者会闪避所有暴击。',
-    pic:'../../image/combine/19.png',
+    pic:'../../image/combine/hyzw.png',
     combineMap:[1,6]
   },
   {
     name:'灭世者的死亡之帽',
     desc:'增加50%技能伤害。',
-    pic:'../../image/combine/20.png',
+    pic:'../../image/combine/mszd.png',
     combineMap:[4,4]
   },
   {
     name:'疾射火炮',
     desc:'携带者的攻击不会被闪避，攻击距离加倍。',
-    pic:'../../image/combine/21.png',
+    pic:'../../image/combine/jshp.png',
     combineMap:[6,8]
   },
   {
     name:'红BUFF',
     desc:'攻击造成2.5%的灼烧伤害。',
-    pic:'../../image/combine/22.png',
+    pic:'../../image/combine/hbuff.png',
     combineMap:[1,8]
   },
   {
     name:'救赎',
     desc:'死亡时，治疗附近所有友军1000点生命值。',
-    pic:'../../image/combine/23.png',
+    pic:'../../image/combine/js.png',
     combineMap:[2,7]
   },
   {
     name:'卢安娜的飓风',
     desc:'普攻对额外2个目标造成伤害，这些额外攻击造成50%的伤害。',
-    pic:'../../image/combine/24.png',
+    pic:'../../image/combine/land.png',
     combineMap:[3,5]
   },
   {
     name:'炽天使之拥',
     desc:'每次有技能被施放时，回复20%法力值。',
-    pic:'../../image/combine/25.png',
+    pic:'../../image/combine/ctsz.png',
     combineMap:[7,7]
   },
   {
     name:'朔极之矛',
     desc:'在使用技能后，携带者的每次攻击回复20%最大法力值。',
-    pic:'../../image/combine/26.png',
+    pic:'../../image/combine/sjzm.png',
     combineMap:[6,7]
   },
   {
     name:'斯塔缇克电刃',
     desc:'每3次攻击，造成100点溅射魔法伤害。',
-    pic:'../../image/combine/27.png',
+    pic:'../../image/combine/sttk.png',
     combineMap:[5,8]
   },
   {
     name:'破刃者',
     desc:'攻击将有几率缴械敌方单位。',
-    pic:'../../image/combine/28.png',
+    pic:'../../image/combine/prz.png',
     combineMap:[1,5]
   },
   {
     name:'神圣之剑',
-    desc:'携带者每秒有5%的几率获得100%暴击率。',
-    pic:'../../image/combine/29.png',
+    desc:'每秒获得5%暴击,直至100%暴击。',
+    pic:'../../image/combine/sszj.png',
     combineMap:[0,6]
   },
   {
     name:'荆棘之甲',
     desc:'攻击伤害反弹25%。',
-    pic:'../../image/combine/30.png',
+    pic:'../../image/combine/jjzj.png',
     combineMap:[1,1]
   },
   {
     name:'巨型九头蛇',
     desc:'攻击对敌人造成携带者10%最大生命值的溅射伤害。',
-    pic:'../../image/combine/31.png',
+    pic:'../../image/combine/jxjt.png',
     combineMap:[2,6]
   },
   {
     name:'狂徒铠甲',
     desc:'每秒恢复2.5%自身最大生命值。',
-    pic:'../../image/combine/32.png',
+    pic:'../../image/combine/ktkj.png',
     combineMap:[2,2]
   },
   {
     name:'悠米',
     desc:'携带者也是法师单位。',
-    pic:'../../image/combine/33.png',
+    pic:'../../image/combine/ym.png',
     combineMap:[3,4]
   },
   {
     name:'幽梦之灵',
     desc:'携带者也是刺客单位。',
-    pic:'../../image/combine/34.png',
+    pic:'../../image/combine/ymzl.png',
     combineMap:[0,3]
   },
   {
     name:'基克的先驱',
     desc:'临近格子的友军获得12.5%攻击速度。',
-    pic:'../../image/combine/35.png',
+    pic:'../../image/combine/jkdx.png',
     combineMap:[0,2]
   },
   {
     name:'灵风',
     desc:'战斗开始时，放逐1个敌人持续5秒。',
-    pic:'../../image/combine/36.png',
+    pic:'../../image/combine/lf.png',
     combineMap:[2,5]
   }
 ]
@@ -349,7 +337,7 @@ Page({
     weaponAOut:{type:Number},
     weaponBOut:{type:Number},
     val:[],
-    value: [3,2],
+    value: [4,3],
     combine:{
       name:'装备名称',
       desc:''
@@ -393,62 +381,6 @@ Page({
       hint:''
     })
     combine.forEach((e)=>{
-      if(val[1]==8) {
-        if(val[0]==6){
-          this.setData({
-            combine: {
-              name:'疾射火炮',
-              desc:'携带者的攻击不会被闪避，攻击距离加倍。'
-            }
-          })
-        } else if(val[0]==5){
-          this.setData({
-            combine: {
-              name:'斯塔缇克电刃',
-              desc:'每3次攻击，造成100点溅射魔法伤害。'
-            }
-          })
-        }else if(val[0]==1){
-          this.setData({
-            combine: {
-              name:'红BUFF',
-              desc:'攻击造成2.5%的灼烧伤害。'
-            }
-          })
-        }else{
-          this.setData({
-            combine: {name:'无装备', desc:''}
-          })
-        }
-      }
-      if(val[0]==8) {
-        if(val[1]==6){
-          this.setData({
-            combine: {
-              name:'疾射火炮',
-              desc:'携带者的攻击不会被闪避，攻击距离加倍。'
-            }
-          })
-        } else if(val[1]==5){
-          this.setData({
-            combine: {
-              name:'斯塔缇克电刃',
-              desc:'每3次攻击，造成100点溅射魔法伤害。'
-            }
-          })
-        } else if(val[1]==1){
-          this.setData({
-            combine: {
-              name:'红BUFF',
-              desc:'攻击造成2.5%的灼烧伤害。'
-            }
-          })
-        } else{
-          this.setData({
-            combine: {name:'无装备', desc:''}
-          })
-        }
-      }
       if(val[0]==e.combineMap[0]&&val[1]==e.combineMap[1]
           ||val[0]==e.combineMap[1]&&val[1]==e.combineMap[0]){
             this.setData({
