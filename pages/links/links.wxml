@@ -2,6 +2,10 @@
 <view class="container">
   <view class="main">
     <h2 class="h2-head">羁绊关系</h2>
-    
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{linkArray}}">
+    <view class="picker">
+      当前选择：{{linkArray[index]}}
+    </view>
+  </picker>
   </view>
 </view>
