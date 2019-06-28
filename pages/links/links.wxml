@@ -1,0 +1,7 @@
+<!--links.wxml-->
+<view class="container">
+  <view class="main">
+    <h2 class="h2-head">羁绊关系</h2>
+    
+  </view>
+</view>

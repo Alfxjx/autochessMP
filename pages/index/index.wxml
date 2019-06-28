@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+  <h2 class="h2-head">装备合成</h2>
   <picker-view
   indicator-style="height: 50px;"
   class="picker-wrapper"
